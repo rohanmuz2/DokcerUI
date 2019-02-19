@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,13 +44,13 @@
 
 <div class="row"  style="text-align:center">
   <div class="col-sm-4">
-    <button mat-button (click)="onClickMe1()" class="btn btn-primary btn-lg">API 1</button>
+    <button mat-button (click)="getapicall('http://a74d48d09346f11e9b4520eeaaab79ba-1850373190.us-east-1.elb.amazonaws.com:7000/')" class="btn btn-primary btn-lg">API 1</button>
   </div>
   <div class="col-sm-4" style="text-align:center">
-    <button mat-raised-button (click)="onClickMe2()"  class="btn btn-success btn-lg">API 2</button>
+    <button mat-raised-button (click)="getapicall('http://abf09721e347511e9b4520eeaaab79ba-543734112.us-east-1.elb.amazonaws.com:4000/')"  class="btn btn-success btn-lg">API 2</button>
   </div>
   <div class="col-sm-4" style="text-align:center">   
-    <button type="button" class="btn btn-danger btn-lg" (click)="onClickMe3()">API 3</button>
+    <button type="button" class="btn btn-danger btn-lg" (click)="getapicall('http://a499489ed346f11e9b4520eeaaab79ba-1945706415.us-east-1.elb.amazonaws.com:9090/')">API 3</button>
   </div>
 
 </div>
